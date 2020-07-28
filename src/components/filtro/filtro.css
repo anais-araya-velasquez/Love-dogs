@@ -92,3 +92,35 @@
 }
 
 
+/* RESPONSIVE
+   ========================================================================= */
+
+   @media (max-width:479px) { 
+    .filtro-input{
+        width: 250px;
+    }
+
+    .filter-title{
+        font-size: 32px;
+    }
+
+    .filtro{
+      width: 250px;
+    }
+
+}
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 768px) { 
+    
+}
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (max-width: 1024px) { }
+ 
+/* Escritorios muy anchos
+   ------------------------------------------------------------------------- */
+
+
+
