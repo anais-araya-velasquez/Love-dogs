@@ -56,12 +56,13 @@ export default function ElevateAppBar(props) {
         <AppBar>
           <Toolbar>
             <div class="header-toolbar"><img class="header-logo-large" src={logoLarge}/></div>
+            <a class="header-menu-a" href="#inicio">Inicio</a>
             <a class="header-menu-a" href="#cuidados">Cuidados</a>
             <a class="header-menu-a" href="#filtro">Filtrar</a>
           </Toolbar>  
         </AppBar>
       </ElevationScroll>
-      <Toolbar />
+      <Toolbar id="inicio" />
       <Container class="MuiContainer-maxWidthXl">
         <div class="header-fondo">
         <center>
