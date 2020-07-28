@@ -1,0 +1,192 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.header-fondo{
+    background-color: #FCC302;
+    width: 100%;
+    height: 544px;
+}
+
+.header-toolbar{
+    width: 80%;
+}
+
+.MuiToolbar-regular{
+    background-color: #DAAC00;
+}
+
+.header-logo-large{
+    width: 18%;
+}
+
+.header-subtitulo{
+    color: #ffffff;
+    padding: 14px 31%;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Open Sans';
+
+}
+
+.header-titulo{
+    color: #ffffff;
+    padding-top: 30px;
+    margin: 0;
+    font-size: 68px;
+    font-family: 'Open Sans';
+}
+
+.MuiContainer-root{
+    padding: 0 !important;
+}
+
+.header-img-logo{
+    width: 90%;
+}
+
+.header-img{
+    width: 60%;
+    margin-top: 7px;
+}
+
+.header-menu-a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+} 
+
+.SegundaParte-img{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    font-size: 1.25rem;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1;
+    user-select: none;
+    border-radius: 50%;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 20px 70px 0 70px;
+
+}
+
+
+.seccion-info{
+    padding-top: 50px;
+    background-color: #FFFFFF;
+}
+
+.info-text{
+    padding-top: 30px;
+}
+
+.info-text p{
+    padding:0px;
+    width: 284px;
+    display: inline-block;
+}
+
+.info-line{
+    width: 148px;
+    background-color: #313243;
+    height: 3px;
+    display: inline-block;
+    position: relative;
+    bottom: 11px;
+    margin: 0 20px;
+}
+
+.info-grid{
+    padding-top: 30px;
+}
+
+.info-h1{
+    color: #313243;
+    font-size: 46px;
+    margin-bottom: 8px;
+}
+
+.cuidados h1{
+    margin: 5px 0 ;
+}
+.uno{
+    padding-top: 66px;
+}
+
+.icon-gris{
+    color: #313243;
+    font-size: 10px;
+    width: 30px;
+}
+
+
+/* RESPONSIVE
+   ========================================================================= */
+
+@media (max-width:479px) { 
+
+    .header-titulo{
+        font-size: 48px;
+    }
+    .header-subtitulo{
+        padding: 14px 12%;
+        font-size: 17px;
+    }
+    .header-fondo{
+        height: 334px;
+    }
+    .header-img{
+        width: 79%;
+    }
+    .header-logo-large {
+        width: 48%;
+    }
+
+    .seccion-info {
+        padding-top: 8px;
+    }
+    .info-line{
+        width: 106px;
+        height: 2px;
+        bottom: 9px;
+    }
+    .icon-gris{
+        width: 24px;
+    }
+    .info-text{
+        margin: 60px 0;
+    }
+  
+    
+}
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 768px) { 
+    .header-subtitulo{
+        padding: 7px 25%;
+        
+    }
+    .header-fondo{
+        height: 388px;
+    }
+    .seccion-info{
+        padding-top: 10px;
+    }
+    .info-text{
+        margin: 50px 0;
+    }
+}
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (max-width: 1024px) { }
+ 
+/* Escritorios muy anchos
+   ------------------------------------------------------------------------- */
+
